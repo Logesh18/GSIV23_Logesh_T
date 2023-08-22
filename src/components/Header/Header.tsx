@@ -34,7 +34,7 @@ function Header({
                         <span className = "SearchIcon">
                           <SearchIcon />
                         </span>
-                        <input className = "SearchBar" type="search" placeholder="Search"
+                        <input className = "SearchBar" type="text" placeholder="Search"
                            onKeyDown = {(event) => Search(event)}
                         />
                       </span> 

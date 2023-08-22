@@ -1,5 +1,5 @@
 
-import { useEffect, useState } from "react";
+import { useEffect, useState, memo } from "react";
 import axios from "axios";
 import { env_variables } from "../../environment"; 
 import { MoviesInterface } from "../../interfaces/MoviesInterface";
@@ -55,11 +55,12 @@ function MoviesList() {
 
   useEffect(() => {
     setIsLoading(true);
-
+    console.log(query, page, movies);
     fetchUpcomingMovies(page, query).then((result: any) => {
       setMovies([ ...movies, ...result ]);
       setIsLoading(false);
     });
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [page, query]);
 
   const buttonClick = () =>{
@@ -89,4 +90,4 @@ function MoviesList() {
         </>
   );
 }
-export default MoviesList;
+export default memo(MoviesList);
