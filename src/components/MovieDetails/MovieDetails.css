@@ -1,0 +1,66 @@
+.MovieDetailContainer {
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+    gap: 20px;
+}
+.MovieImageContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 28%;
+}
+.MovieContentContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    width: 68%;
+}
+
+.MovieImageTag {
+    width: 100%;
+    height: 40vh;
+}
+
+.TitleContainer {
+    display: flex;
+    column-gap: 5px;
+}
+
+.MovieTitleTag {
+    font-weight: 500;
+    color: #575757;
+    font-size: 1rem;
+}
+
+.MovieRatingTag {
+    color: #a6a6a6;
+    font-weight: 450;
+    font-size: 1rem;
+}
+
+.FontStyle {
+    font-size: 0.8rem;
+    color: #676767;
+    font-weight: 500;
+}
+.BasicDetails {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.CastDetails {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+@media screen and (max-width: 568px) {
+    .MovieImageContainer, .MovieContentContainer {
+        width: 100%;
+    }
+}

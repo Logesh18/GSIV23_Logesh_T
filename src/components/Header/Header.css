@@ -1,0 +1,59 @@
+.HeaderContainer {
+    height: 60px;
+    display: flex;
+    align-items: center;
+    padding: 0 20px 0 20px;
+    box-shadow: 0px 2px 3px 2px #bebebe;
+}
+
+.SearchContainer {
+    display:flex;
+    width:80%;
+}
+
+.HomeIconContainer {
+    width: 20%;
+    display:flex;
+    justify-content: flex-end;
+    color: #535353;
+}
+
+.HomeIcon {
+    cursor: pointer;
+}
+
+.SearchBarContainer {
+    width: 100%;
+    height: 32px;
+    border-radius: 5px;
+    border: none;
+    align-items: center;
+    display: flex;
+}
+
+.SearchBar {
+    outline: none;
+    border: none;
+    background-color: #d9d9d9;
+    height: 100% !important;
+    width: 80%;
+    border-radius: 0px 6px 6px 0px;
+    color: #7e7e7e;
+    font-weight:bold;
+    font-size: 1rem;
+}
+
+.SearchIcon {
+    padding: 5px;
+    background-color: #d9d9d9;
+    height: 100% !important;
+    border-radius: 6px 0px 0px 6px;
+    display: flex;
+    align-items: center;
+    font-weight:bold;
+    color: #7e7e7e;
+}
+
+.Title{
+    color: #707070;
+}
