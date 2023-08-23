@@ -48,4 +48,4 @@ You can learn more in the [Create React App documentation](https://facebook.gith
 
 To learn React, check out the [React documentation](https://reactjs.org/).
 
-Refer the Site Link : https://64e4c7e075a8d100084d363e--symphonious-dodol-228506.netlify.app/
+Refer the Site Link : https://gsiv23-themoviesdb.netlify.app/
